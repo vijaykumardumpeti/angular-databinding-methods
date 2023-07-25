@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html >
+<head>
+</head>
+<body>
+    <h1>style binding</h1>
+    <p [style]="{backgroundColor: cvalue}">style-like [style]=(property:value-(must come from the component.ts))</p>
+    <p [style.color]="cvalue">style-dot(.) notation in an array </p>
+    <p [style]="objectOfStyles">style- (color: "red", background: "red", border: "5px solid blue")</p>
+    <p [style.color]="hasError? 'red': 'green'">style-ternary operator [style.color]="hasError? 'red': 'green'"</p>
+</body>
+</html>

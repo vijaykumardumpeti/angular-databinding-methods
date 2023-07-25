@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>Twoway databinding</h1>
+    <div>
+        <input type="text" [(ngModel)]="city" />
+        <p><span>city: </span>{{city}}</p>
+        <button (click)="updateCity()">update</button>
+    </div>
+</body>
+</html>

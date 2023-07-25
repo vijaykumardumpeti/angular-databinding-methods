@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <h1>class binding</h1>
+    <p [class] = "isTernary?'ternary-style-1': 'ternary-style-2'">1.style-based on ternary operator</p>
+    <p [class]="{style3: true}">2.style-like object(key: value) when value becomes true </p>
+    <p [class]="{apply1: isApply, apply2: isApply}">3.style -like object(key1: value1, key2:value2)</p>
+    <p [class]="['apply3','apply4']">4.style-like array square brackets['style1', 'style2']</p>
+    <p [class.dotStyle]="isDotStyle">5.style-like dot(.) notation in an array [class.classValue]="boolean"</p>
+</body>
+</html>

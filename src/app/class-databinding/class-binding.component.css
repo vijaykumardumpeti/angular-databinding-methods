@@ -1,0 +1,29 @@
+.ternary-style-1{
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+}
+.ternary-style-2{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+.style3{
+    color: blue;
+}
+.apply1{
+    border-top: 2px solid black;
+}
+.apply2{
+border-bottom: 2px solid red;
+}
+.apply3{
+    background-color: red;
+}
+.apply4{
+  color: white;
+}
+.dotStyle{
+    text-decoration: underline;
+    
+}
